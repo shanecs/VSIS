@@ -347,3 +347,16 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+
+/*~ Additions by Shane Cory Selig ~*/
+.panel-error {
+    background-color: rgba(170, 0, 0, 0.5);
+    border-color: #d9534f;
+    color: black;
+	padding: 10px 15px;
+}
+
+.panel-error>h3.panel-title {
+	font-size: 14px;
+}

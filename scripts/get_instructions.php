@@ -1,6 +1,6 @@
 <?php
 	// Open Connection
-	include 'open_connection.php';
+	include_once 'open_connection.php';
 	
 	// Execute Query
 	$sql = "CALL GetInstructions(" . ((int)$_GET['CaseID']) . ")";

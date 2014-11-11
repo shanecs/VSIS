@@ -1,16 +1,19 @@
-<?php include 'scripts/functions.php';?>
+<?php
+	require_once 'scripts/security/access.php';
+//	checkUser();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<?php include 'elements/header.php';?>
+	<?php include_once 'elements/header.php';?>
 </head>
 
 <body>
 
     <div id="wrapper">
-		<?php include 'elements/navigation.php';?>
+		<?php include_once 'elements/navigation.php';?>
 
 
         <div id="page-wrapper">
